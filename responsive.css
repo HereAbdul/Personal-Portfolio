@@ -1,0 +1,158 @@
+/* Responsive Media Query */
+
+@media (max-width: 750px) {
+  nav .navbar {
+    width: 90%;
+  }
+
+  .home {
+    background: none;
+  }
+
+  nav .navbar .menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #0E2431;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .navbar.active .menu {
+    left: 0;
+  }
+
+  nav .navbar .menu a {
+    font-size: 23px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  nav.sticky .menu a:hover {
+    color: #4070f4;
+  }
+
+  nav .navbar .media-icons {
+    display: none;
+  }
+
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    display: block;
+  }
+
+  .home .text-two {
+    font-size: 65px;
+  }
+
+  .home .text-three {
+    font-size: 35px;
+  }
+
+  .about .about-details {
+    flex-direction: column;
+
+
+  }
+
+  .about .about-details .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about .about-details .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about .left img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .skills .skills-details {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills-details .text {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .skills-details .boxes {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services .boxes {
+    flex-direction: column;
+    margin-right: 15px;
+  }
+
+  .services .boxes .box {
+
+    width: 100%;
+  }
+
+  .skills-details .experience .num {
+    color: #0E2431;
+    font-size: 40px;
+  }
+
+  .input-div .div input {
+    width: 250px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .home .text-two {
+    font-size: 55px;
+  }
+
+  .home .text-three {
+    font-size: 33px;
+  }
+
+  .skills-details .boxes .per {
+    font-size: 50px;
+    color: #4070f4;
+  }
+
+  .home .text-two {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: -3px;
+  }
+
+  .skills-details .boxes .topic {
+    font-size: 15px;
+
+  }
+
+  .skills-details .boxes .per {
+    font-size: 30px;
+  }
+
+  section .button {
+    margin: 10px 0;
+  }
+
+  section .button button {
+    padding: 6px 10px;
+    font-size: 15px;
+  }
+
+  .input-div .div input {
+    width: 200px;
+  }
+}
