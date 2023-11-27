@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <!-------------HEADER -------------->
+    <div class="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <i class="ri-code-fill"></i><span>Abdul</span> Rehman
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-------------- close button --------------->
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!------------ togglr button ----------------->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </div>
+    <main class="main">
+        <!--------------HOME---------------->
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="data">
+                    <h3 class="hello">Hello, <span>I,m</span></h3>
+                    <h1 class="name">Abdul rehman</h1>
+                    <h3 class="Course">Jonior Front-end Developer</h3>
+                    <p class="description">With 1 year Experience in web development and design, I offer the best
+                        projects resulting in quality work.</p>
+                    <a href="#contact" class="button">Let's Talk</a>
+
+                    <div class="home-social">
+                        <a href="https://github.com/HereAbdul" class="home-social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdul-rehman-60948b245/" class="home-social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="home-image">
+                    <svg class="home-blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                       170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                       447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                       587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                       438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                       170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                       447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                       587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                       438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+
+                            <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image class="home-img" id="imageBlob" width="640" height="1080"
+                                href="./images/cartoon-boy-with-glasses-plaid-shirt-smiling-generative-ai_955884-58458-PhotoRoom.png-PhotoRoom.png" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <!--------------ABOUT---------------->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <svg class="about-blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                       171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                       448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                       270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                       439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                       192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                       580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                       40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                       175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black"
+                                stroke-width="10" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+                        <defs>
+                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image class="about-img" id="imageBorder" width="640" height="1080"
+                                href="/images/cartoon-boy-with-glasses-plaid-shirt-smiling-generative-ai_955884-58458-PhotoRoom.png-PhotoRoom.png" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="about-data">
+                    <h3 class="about-head">My <span>intro</span></h3>
+                    <h1 class="about-title">About Me</h1>
+                    <p class="intro">Frontend developer, I create web pages with UI/UX user intergaces. I have 1 year
+                        experience and many clients are happy with the projects carried out.</p>
+                    <a href="#contact" class="button-2">Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <!---------------SKILLS--------------->
+        <section class="skills" id="skills">
+            <div class="skill-container">
+                <div class="skill-data">
+                    <h3 class="skill-heading">
+                        Favorite <span>Skills</span>
+                    </h3>
+                    <h2 class="skill-title">
+                        My Skills
+                    </h2>
+                    <p class="skill-description">
+                        See fully what skills I have and perform to develop the projects for you.
+                    </p>
+                    <a href="" class="button-2">See Projects</a>
+                </div>
+                <div class="skill-content">
+                    <ol class="skill-group">
+                        <li class="skill-item">HTML </li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">JavaScript</li>
+                        <li class="skill-item">Bootstrap</li>
+                    </ol>
+                    <ol class="skill-group" start="5">
+                        <li class="skill-item">React</li>
+                        <li class="skill-item">Git & Github</li>
+
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!---------------Projects--------------->
+        <section class="project" id="projects">
+            <h3 class="project-heading">
+                My <span>Jobs</span>
+            </h3>
+            <h2 class="project-title">Recent Projects</h2>
+            <div class="project-container">
+                <div class="cards first">
+                    <div class="content">
+                        <h2>Web</h2>
+                        <h1>Ecommerce Webpage</h1>
+                        <a href="https://online-buy-anything.netlify.app/" target="_blank"> Live Demo <i class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                </div>
+                <div class="cards second">
+                    <div class="content ">
+                        <h2>Web</h2>
+                        <h1>Online Ticket Website</h1>
+                        <a href="https://onlinebookingpakistan.netlify.app" target="_blank"> Live Demo <i class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------CONTACT--------------->
+        <section class="contact" id="contact">
+            <h3 class="contact-title">Get In <span>Touch</span></h3>
+            <h2 class="contact-subtitle">Contact Me</h2>
+            <div class="contact-container">
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="contact-group">
+                        <input type="text" name="user-name" required placeholder="Name" class="contact-input">
+                        <input type="email" name="user-email" required placeholder="Enter Your Email"
+                            class="contact-input">
+                        <textarea name="user-message" required placeholder="Enter your Message"></textarea>
+                        <p class="contact-message" id="contact-message"></p>
+                        <button type="submit" class="button-2 contact-button">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </section>
+        <!---------------FOOTER--------------->
+        <footer class="footer">
+            <div class="footer-container">
+                <div>
+                    <h1 class="footer-title">
+                        <i class="ri-code-fill"></i><span>Abdul</span> Rehman
+                    </h1>
+                    <h2 class="footer-course">
+                        Front-end Developer
+                    </h2>
+                </div>
+                <span class="footer-copy">
+                    &#169; Made by Me. All rights reserved
+                </span>
+            </div>
+
+        </footer>
+
+    </main>
+    <script src="./app.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+
+</html>
